@@ -1,0 +1,19 @@
+import React from 'react'
+
+const ChatMessage = ({name,message}) => {
+  return (
+    <div >
+    {/*<div className='shadow-lg m-1 font-bold'>Top messages</div>*/}
+      <div className='flex items-center shadow-sm '>
+        <img className='col-span-1 h-7 rounded-2xl ' 
+               alt='User Logo' 
+               src='data:image/jpeg;base64,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' 
+        />
+      <span className='text-sm mx-1 font-bold' >{name}</span>
+      <span className='text-sm mx-1 '>{message}</span>
+      </div>
+    </div>
+  )
+}
+
+export default ChatMessage
