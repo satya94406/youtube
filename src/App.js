@@ -16,7 +16,7 @@ function App() {
        element:<Body/>,
        children:[
          {
-            path:"/",
+            path:"/youtube",
             element:<Main_Container/>
          },
          {
