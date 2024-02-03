@@ -35,7 +35,7 @@ const Header = () => {
               setSuggestions(searchCache[SearchQuery])
        }
        else{
-        getSearchSuggestion();
+       //getSearchSuggestion();
        }
       }
       ,200);
